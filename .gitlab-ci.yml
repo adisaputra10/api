@@ -1,0 +1,11 @@
+stages:
+  - test
+  
+run:
+  image: node:latest
+  stage: test
+  script:
+    - ls 
+  only:
+    - master
+
